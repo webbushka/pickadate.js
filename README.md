@@ -51,13 +51,13 @@ All themes are [generated using LESS](#less-styling) and compiled from the `lib/
 
 File                    | Contents                     | Size (min & gzip)
 ----------------------- | ---------------------------- | ----------------------
-`default.css`           | __Base default *__           | 0.44kb
+`default.css`           | __Base default *__           | 0.11kb
 `default.date.css`      | Default date picker          | 0.75kb
-`default.time.css`      | Default time picker          | 0.35kb
-`classic.css`           | __Base classic *__           | 0.31kb
+`default.time.css`      | Default time picker          | 0.31kb
+`classic.css`           | __Base classic *__           | 0.11kb
 `classic.date.css`      | Classic date picker          | 0.75kb
-`classic.time.css`      | Classic time picker          | 0.35kb
-`rtl.css`               | __RTL language stylings **__ | 0.10kb
+`classic.time.css`      | Classic time picker          | 0.31kb
+`rtl.css`               | __RTL language stylings **__ | 0.11kb
 
 __*__ One and only one base stylesheet is **required**. [Choose a theme](http://amsul.github.io/pickadate.js#menu) then include the respective pickers as well.
 
