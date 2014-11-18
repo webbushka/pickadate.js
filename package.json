@@ -1,5 +1,5 @@
 {
-  "name": "pickadate",
+  "name": "pickadate-sass",
   "version": "3.5.4",
   "title": "pickadate.js",
   "description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
@@ -8,6 +8,10 @@
     "email": "reach@amsul.ca",
     "url": "http://amsul.ca"
   },
+  "contributors": [{
+  	"name": "webbushka",
+  	"email": "webbushka@gmail.com"
+  	}],
   "licenses": [
     {
       "type": "MIT",
