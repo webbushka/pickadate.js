@@ -43,7 +43,7 @@
 
 	// Hide everything to begin with.
 	max-height: 0;
-	@mixin opacity( 0 );
+	@include opacity( 0 );
 
 	// Tilt the picker.
 	transform: translateY( -1em ) perspective( 600px ) rotateX( 10deg );
@@ -79,7 +79,7 @@
 
 		// Reveal the content.
 		max-height: $classic-max-height;
-		@mixin opacity( 1 );
+		@include opacity( 1 );
 
 		// Expand the top & bottom borders.
 		border-top-width: 1px;

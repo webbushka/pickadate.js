@@ -58,7 +58,7 @@
 	width: 100%; // For IE9 & 10 to keep it centered.
 
 	// Hide it to begin with.
-	@mixin opacity( 0 );
+	@include opacity( 0 );
 
 	// Animate the frame in and out of view.
 	transition: all $speed-animate-in ease-out;
@@ -179,7 +179,7 @@
 		transform: translateY(0);
 
 		// Ånd then reveal the content
-		@mixin opacity( 1 );
+		@include opacity( 1 );
 
 		// For `small` screens, move to the bottom edge instead
 		@media ( min-height: $breakpoint-small ) {
